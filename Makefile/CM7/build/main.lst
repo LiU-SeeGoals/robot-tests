@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccEFBTvY.s 			page 1
+ARM GAS  /tmp/cc1ZR6kR.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
   30:../../CM7/Core/Src/main.c **** /* USER CODE END PTD */
   31:../../CM7/Core/Src/main.c **** 
   32:../../CM7/Core/Src/main.c **** /* Private define ------------------------------------------------------------*/
-ARM GAS  /tmp/ccEFBTvY.s 			page 2
+ARM GAS  /tmp/cc1ZR6kR.s 			page 2
 
 
   33:../../CM7/Core/Src/main.c **** /* USER CODE BEGIN PD */
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
   87:../../CM7/Core/Src/main.c **** 
   88:../../CM7/Core/Src/main.c ****   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   89:../../CM7/Core/Src/main.c ****   HAL_Init();
-ARM GAS  /tmp/ccEFBTvY.s 			page 3
+ARM GAS  /tmp/cc1ZR6kR.s 			page 3
 
 
   90:../../CM7/Core/Src/main.c **** 
@@ -154,7 +154,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  120:../../CM7/Core/Src/main.c ****   MX_GPIO_Init();
  121:../../CM7/Core/Src/main.c ****   /* USER CODE BEGIN 2 */
  122:../../CM7/Core/Src/main.c ****   HAL_GPIO_WritePin(GPIOB, GREEN_LED_Pin, GPIO_PIN_SET);
- 123:../../CM7/Core/Src/main.c ****   HAL_GPIO_WritePin(GPIOE, YELLOW_LED_Pin, GPIO_PIN_RESET);
+ 123:../../CM7/Core/Src/main.c ****   HAL_GPIO_WritePin(GPIOE, YELLOW_LED_Pin, GPIO_PIN_SET);
  124:../../CM7/Core/Src/main.c ****   /* USER CODE END 2 */
  125:../../CM7/Core/Src/main.c **** 
  126:../../CM7/Core/Src/main.c ****   /* Infinite loop */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  144:../../CM7/Core/Src/main.c ****   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
  145:../../CM7/Core/Src/main.c **** 
  146:../../CM7/Core/Src/main.c ****   /** Supply configuration update enable
-ARM GAS  /tmp/ccEFBTvY.s 			page 4
+ARM GAS  /tmp/cc1ZR6kR.s 			page 4
 
 
  147:../../CM7/Core/Src/main.c ****   */
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
   34              		.cfi_offset 4, -20
   35              		.cfi_offset 5, -16
   36              		.cfi_offset 6, -12
-ARM GAS  /tmp/ccEFBTvY.s 			page 5
+ARM GAS  /tmp/cc1ZR6kR.s 			page 5
 
 
   37              		.cfi_offset 7, -8
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
   81              		.loc 1 203 3 view .LVU15
   82 0042 124F     		ldr	r7, .L3+4
   83 0044 2246     		mov	r2, r4
-ARM GAS  /tmp/ccEFBTvY.s 			page 6
+ARM GAS  /tmp/cc1ZR6kR.s 			page 6
 
 
   84 0046 44F20101 		movw	r1, #16385
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  123 0078 0594     		str	r4, [sp, #20]
  219:../../CM7/Core/Src/main.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
  124              		.loc 1 219 3 is_stmt 1 view .LVU32
-ARM GAS  /tmp/ccEFBTvY.s 			page 7
+ARM GAS  /tmp/cc1ZR6kR.s 			page 7
 
 
  125              		.loc 1 219 25 is_stmt 0 view .LVU33
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  165              		.cfi_offset 14, -4
  236:../../CM7/Core/Src/main.c ****   /* USER CODE BEGIN Error_Handler_Debug */
  237:../../CM7/Core/Src/main.c ****   HAL_GPIO_WritePin(GPIOB, RED_LED_Pin, GPIO_PIN_SET);
-ARM GAS  /tmp/ccEFBTvY.s 			page 8
+ARM GAS  /tmp/cc1ZR6kR.s 			page 8
 
 
  166              		.loc 1 237 3 view .LVU37
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
   43:../../Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __INLINE
   44:../../Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __INLINE                               inline
   45:../../Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  /tmp/ccEFBTvY.s 			page 9
+ARM GAS  /tmp/cc1ZR6kR.s 			page 9
 
 
   46:../../Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __STATIC_INLINE
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  100:../../Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT32_WRITE(addr, val)    (void)((((struct T_UINT32_WRITE *)(void *)(addr))-
  101:../../Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  102:../../Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT32_READ
-ARM GAS  /tmp/ccEFBTvY.s 			page 10
+ARM GAS  /tmp/cc1ZR6kR.s 			page 10
 
 
  103:../../Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  157:../../Drivers/CMSIS/Include/cmsis_gcc.h ****   for (__zero_table_t const* pTable = &__zero_table_start__; pTable < &__zero_table_end__; ++pTable
  158:../../Drivers/CMSIS/Include/cmsis_gcc.h ****     for(uint32_t i=0u; i<pTable->wlen; ++i) {
  159:../../Drivers/CMSIS/Include/cmsis_gcc.h ****       pTable->dest[i] = 0u;
-ARM GAS  /tmp/ccEFBTvY.s 			page 11
+ARM GAS  /tmp/cc1ZR6kR.s 			page 11
 
 
  160:../../Drivers/CMSIS/Include/cmsis_gcc.h ****     }
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  180              	@ 209 "../../Drivers/CMSIS/Include/cmsis_gcc.h" 1
  181 000e 72B6     		cpsid i
  182              	@ 0 "" 2
-ARM GAS  /tmp/ccEFBTvY.s 			page 12
+ARM GAS  /tmp/cc1ZR6kR.s 			page 12
 
 
  183              		.thumb
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  230 0012 01A8     		add	r0, sp, #4
  231 0014 FFF7FEFF 		bl	memset
  232              	.LVL6:
-ARM GAS  /tmp/ccEFBTvY.s 			page 13
+ARM GAS  /tmp/cc1ZR6kR.s 			page 13
 
 
  148:../../CM7/Core/Src/main.c **** 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  154:../../CM7/Core/Src/main.c **** 
  273              		.loc 1 154 9 discriminator 1 view .LVU63
  274 0050 13F4005F 		tst	r3, #8192
-ARM GAS  /tmp/ccEFBTvY.s 			page 14
+ARM GAS  /tmp/cc1ZR6kR.s 			page 14
 
 
  275 0054 FAD0     		beq	.L11
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  175:../../CM7/Core/Src/main.c ****   RCC_ClkInitStruct.APB3CLKDivider = RCC_APB3_DIV1;
  311              		.loc 1 175 35 is_stmt 0 view .LVU82
  312 0078 0493     		str	r3, [sp, #16]
-ARM GAS  /tmp/ccEFBTvY.s 			page 15
+ARM GAS  /tmp/cc1ZR6kR.s 			page 15
 
 
  176:../../CM7/Core/Src/main.c ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_APB1_DIV1;
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  353 009c 00040058 		.word	1476396032
  354 00a0 00480258 		.word	1476544512
  355              		.cfi_endproc
-ARM GAS  /tmp/ccEFBTvY.s 			page 16
+ARM GAS  /tmp/cc1ZR6kR.s 			page 16
 
 
  356              	.LFE145:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  401              		.loc 1 103 1 view .LVU107
  402 0026 0020     		movs	r0, #0
  403 0028 FFF7FEFF 		bl	HAL_HSEM_FastTake
-ARM GAS  /tmp/ccEFBTvY.s 			page 17
+ARM GAS  /tmp/cc1ZR6kR.s 			page 17
 
 
  404              	.LVL14:
@@ -974,7 +974,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  411              		.loc 1 120 3 view .LVU110
  412 0034 FFF7FEFF 		bl	MX_GPIO_Init
  413              	.LVL16:
- 122:../../CM7/Core/Src/main.c ****   HAL_GPIO_WritePin(GPIOE, YELLOW_LED_Pin, GPIO_PIN_RESET);
+ 122:../../CM7/Core/Src/main.c ****   HAL_GPIO_WritePin(GPIOE, YELLOW_LED_Pin, GPIO_PIN_SET);
  414              		.loc 1 122 3 view .LVU111
  415 0038 0122     		movs	r2, #1
  416 003a 1146     		mov	r1, r2
@@ -983,7 +983,7 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  419              	.LVL17:
  123:../../CM7/Core/Src/main.c ****   /* USER CODE END 2 */
  420              		.loc 1 123 3 view .LVU112
- 421 0042 0022     		movs	r2, #0
+ 421 0042 0122     		movs	r2, #1
  422 0044 0221     		movs	r1, #2
  423 0046 0448     		ldr	r0, .L22+8
  424 0048 FFF7FEFF 		bl	HAL_GPIO_WritePin
@@ -1016,23 +1016,23 @@ ARM GAS  /tmp/ccEFBTvY.s 			page 1
  449              		.file 10 "../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h"
  450              		.file 11 "../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h"
  451              		.file 12 "<built-in>"
-ARM GAS  /tmp/ccEFBTvY.s 			page 18
+ARM GAS  /tmp/cc1ZR6kR.s 			page 18
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-     /tmp/ccEFBTvY.s:20     .text.MX_GPIO_Init:00000000 $t
-     /tmp/ccEFBTvY.s:25     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-     /tmp/ccEFBTvY.s:141    .text.MX_GPIO_Init:00000088 $d
-     /tmp/ccEFBTvY.s:148    .text.Error_Handler:00000000 $t
-     /tmp/ccEFBTvY.s:154    .text.Error_Handler:00000000 Error_Handler
-     /tmp/ccEFBTvY.s:195    .text.Error_Handler:00000014 $d
-     /tmp/ccEFBTvY.s:200    .text.SystemClock_Config:00000000 $t
-     /tmp/ccEFBTvY.s:206    .text.SystemClock_Config:00000000 SystemClock_Config
-     /tmp/ccEFBTvY.s:353    .text.SystemClock_Config:0000009c $d
-     /tmp/ccEFBTvY.s:359    .text.main:00000000 $t
-     /tmp/ccEFBTvY.s:365    .text.main:00000000 main
-     /tmp/ccEFBTvY.s:434    .text.main:00000050 $d
+     /tmp/cc1ZR6kR.s:20     .text.MX_GPIO_Init:00000000 $t
+     /tmp/cc1ZR6kR.s:25     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+     /tmp/cc1ZR6kR.s:141    .text.MX_GPIO_Init:00000088 $d
+     /tmp/cc1ZR6kR.s:148    .text.Error_Handler:00000000 $t
+     /tmp/cc1ZR6kR.s:154    .text.Error_Handler:00000000 Error_Handler
+     /tmp/cc1ZR6kR.s:195    .text.Error_Handler:00000014 $d
+     /tmp/cc1ZR6kR.s:200    .text.SystemClock_Config:00000000 $t
+     /tmp/cc1ZR6kR.s:206    .text.SystemClock_Config:00000000 SystemClock_Config
+     /tmp/cc1ZR6kR.s:353    .text.SystemClock_Config:0000009c $d
+     /tmp/cc1ZR6kR.s:359    .text.main:00000000 $t
+     /tmp/cc1ZR6kR.s:365    .text.main:00000000 main
+     /tmp/cc1ZR6kR.s:434    .text.main:00000050 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin
